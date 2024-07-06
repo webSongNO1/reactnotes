@@ -1,14 +1,9 @@
-import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import { useHookstate } from "@hookstate/core";
-let obj = {
-	name: "",
-	age: ""
-}
+
 function App() {
-	// const [count, setCount] = useState(0);
 	const count = useHookstate(0);
 	return (
 		<>
